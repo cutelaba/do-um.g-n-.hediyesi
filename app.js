@@ -13,7 +13,7 @@ const memberMessages = {
     "Nihal": "Sevgili Nihal,\nAilemizin neşe kaynaklarından biri. Doğum gününde tüm dileklerinin gerçekleşmesi dileğiyle!",
     "Hilal": "Sevgili Hilal,\nYüreği güzel insan, hayat boyu mutluluk ve huzur seninle olsun. Mutlu yıllar!",
     "Ali": "Sevgili Ali,\nBaşarı, sağlık ve mutluluk dolu harika bir yaş geçirmen dileğiyle. Doğum günün kutlu olsun!",
-    "Semih": "Sevgili Semih,\nAilemizin en değerlilerinden, yeni yaşında her şey gönlünce olsun. Mutlu yıllar!",
+    "Seval": "Sevgili Seval,\nAilemizin en değerlilerinden, yeni yaşında her şey gönlünce olsun. Mutlu yıllar!",
     "Özkan": "Sevgili Özkan,\nAilemize kattığın tüm güzellikler için teşekkürler. Sağlıklı ve mutlu yıllara!",
     "Efe": "Sevgili Efe,\nGeleceğin hep parlak, başarıların daim olsun. Doğum günün kutlu olsun yakışıklı!",
     "Arda": "Sevgili Arda,\nYüzündeki gülücükler hiç eksik olmasın. Yeni yaşın sana şans getirsin!",
@@ -28,7 +28,7 @@ const nodesData = [
     { id: "Nihal", name: "Nihal", step: 2, pos: [-7, 5, 0], size: 1.2 },
     { id: "Hilal", name: "Hilal", step: 2, pos: [-2, 5, 0], size: 1.1 },
     { id: "Ali", name: "Ali", step: 2, pos: [3, 5, 0], size: 1.0 },
-    { id: "Semih", name: "Semih", step: 2, pos: [8, 5, 0], size: 0.9 },
+    { id: "Seval", name: "Semih", step: 2, pos: [8, 5, 0], size: 0.9 },
     
     { id: "Özkan", name: "Özkan", step: 3, pos: [-2, 10, -3], size: 1.1 },
     
@@ -43,7 +43,7 @@ const linesData = [
     { from: "İbrahim", to: "Nihal", step: 2 },
     { from: "İbrahim", to: "Hilal", step: 2 },
     { from: "İbrahim", to: "Ali", step: 2 },
-    { from: "İbrahim", to: "Semih", step: 2 },
+    { from: "İbrahim", to: "Seval", step: 2 },
     { from: "Hilal", to: "Özkan", step: 3 },
     { from: "Hilal", to: "Efe", step: 4 },
     { from: "Hilal", to: "Arda", step: 4 },
