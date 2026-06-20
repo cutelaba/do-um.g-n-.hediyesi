@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutlu Yıllar - İnteraktif Aile Ağacı</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+
+    <canvas id="webgl-canvas"></canvas>
+
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="ui-hint">İlerlemek için boş bir alana tıklayın. Detaylar için kalplere tıklayın.</div>
+
+    <div id="message-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <h2 id="modal-title">İsim</h2>
+            <p id="modal-body">Kişiye özel doğum günü mesajı buraya gelecek.</p>
+            <button id="modal-close-btn">Kapat</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
