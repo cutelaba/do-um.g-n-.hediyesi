@@ -28,7 +28,7 @@ const nodesData = [
     { id: "Nihal", name: "Nihal", step: 2, pos: [-7, 5, 0], size: 1.2 },
     { id: "Hilal", name: "Hilal", step: 2, pos: [-2, 5, 0], size: 1.1 },
     { id: "Ali", name: "Ali", step: 2, pos: [3, 5, 0], size: 1.0 },
-    { id: "Seval", name: "Semih", step: 2, pos: [8, 5, 0], size: 0.9 },
+    { id: "Seval", name: "Seval", step: 2, pos: [8, 5, 0], size: 0.9 },
     
     { id: "Özkan", name: "Özkan", step: 3, pos: [-2, 10, -3], size: 1.1 },
     
